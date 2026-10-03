@@ -1,7 +1,7 @@
 namespace desafioDev02.Model
 {
-    public class Movimentacao
-    {
-      public  List<Estoque> movimentar = new();
-    }
+  public class Movimentacao
+  {
+    public List<Estoque> estoque { get; set; } = new();
+}
 }
